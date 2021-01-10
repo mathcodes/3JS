@@ -1,0 +1,34 @@
+/* .col{
+    border: 5px solid purple;
+    /* height: 300px; */
+    /* width: 300px;
+    background: black;
+    overflow-x: auto; 
+} */
+
+.col {
+    flex: 0 0 0%;
+    float: left;
+}
+
+.spaceCOL{
+    margin: 0 0;
+    padding: 0 0 ;
+}
+
+.row>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    
+    padding-left: 0%;
+    padding-left: 0%;;
+    margin-top: var(--bs-gutter-y);
+}
+
+.btn{
+    padding: 0;
+    margin:0;
+    background-color:rgb(82, 37, 37);
+    color: gray;
+    border: 2px inset darkgray;
+}
